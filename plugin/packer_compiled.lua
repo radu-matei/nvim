@@ -100,6 +100,11 @@ _G.packer_plugins = {
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["diffview.nvim"] = {
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/diffview.nvim",
@@ -120,6 +125,11 @@ _G.packer_plugins = {
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["grammar-guard.nvim"] = {
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/grammar-guard.nvim",
+    url = "https://github.com/brymer-meneses/grammar-guard.nvim"
+  },
   ["indent-blankline.nvim"] = {
     config = { "\27LJ\2\n[\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\25show_current_context\2\nsetup\21indent_blankline\frequire\0" },
     loaded = true,
@@ -133,7 +143,7 @@ _G.packer_plugins = {
     url = "https://github.com/simrat39/inlay-hints.nvim"
   },
   ["kanagawa.nvim"] = {
-    config = { "\27LJ\2\n�\2\0\0\4\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0024\3\0\0=\3\6\0025\3\a\0=\3\b\0025\3\t\0=\3\n\0024\3\0\0=\3\v\0025\3\f\0=\3\r\0024\3\0\0=\3\14\0024\3\0\0=\3\15\2B\0\2\1K\0\1\0\14overrides\vcolors\25variablebuiltinStyle\1\0\1\vitalic\2\14typeStyle\19statementStyle\1\0\1\tbold\2\17keywordStyle\1\0\1\vitalic\2\18functionStyle\17commentStyle\1\0\1\vitalic\2\1\0\b\14undercurl\2\19terminalColors\2\17globalStatus\1\16dimInactive\1\16transparent\1\21specialException\2\18specialReturn\2\ntheme\nlight\nsetup\rkanagawa\frequire\0" },
+    config = { "\27LJ\2\n�\3\0\0\4\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0024\3\0\0=\3\6\0025\3\a\0=\3\b\0025\3\t\0=\3\n\0024\3\0\0=\3\v\0025\3\f\0=\3\r\0024\3\0\0=\3\14\0024\3\0\0=\3\15\2B\0\2\1K\0\1\0\14overrides\vcolors\25variablebuiltinStyle\1\0\1\vitalic\2\14typeStyle\19statementStyle\1\0\1\tbold\2\17keywordStyle\1\0\1\vitalic\2\18functionStyle\17commentStyle\1\0\1\vitalic\2\1\0\b\16dimInactive\1\16transparent\1\21specialException\2\18specialReturn\2\ntheme\fdefault\14undercurl\2\19terminalColors\2\17globalStatus\1\nsetup\rkanagawa\frequire\0" },
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
@@ -145,7 +155,7 @@ _G.packer_plugins = {
     url = "https://github.com/folke/lsp-colors.nvim"
   },
   ["lsp_signature.nvim"] = {
-    config = { "\27LJ\2\n�\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\a\16hint_prefix\5\20floating_window\2\15toggle_key\n<M-x>\16hint_enable\1\14doc_lines\3\15\14max_width\3�\1\15max_height\3\30\nsetup\18lsp_signature\frequire\0" },
+    config = { "\27LJ\2\n�\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\a\20floating_window\2\15toggle_key\n<M-x>\16hint_enable\1\14doc_lines\3\15\14max_width\3�\1\15max_height\3\30\16hint_prefix\5\nsetup\18lsp_signature\frequire\0" },
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
     url = "https://github.com/ray-x/lsp_signature.nvim"
@@ -170,6 +180,11 @@ _G.packer_plugins = {
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+  },
   ["mini.nvim"] = {
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/mini.nvim",
@@ -180,10 +195,21 @@ _G.packer_plugins = {
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/move.nvim",
     url = "https://github.com/fedepujol/move.nvim"
   },
+  ["neo-tree.nvim"] = {
+    config = { "\27LJ\2\nv\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\15filesystem\1\0\0\1\0\1\26hijack_netrw_behavior\17open_default\nsetup\rneo-tree\frequire\0" },
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
   ["neodev.nvim"] = {
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/neodev.nvim",
     url = "https://github.com/folke/neodev.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -195,22 +221,21 @@ _G.packer_plugins = {
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/nvim-lint",
     url = "https://github.com/mfussenegger/nvim-lint"
   },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-navic"] = {
-    config = { "\27LJ\2\n�\3\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\nicons\1\0\5\16safe_output\2\26depth_limit_indicator\a..\14highlight\1\16depth_limit\3\0\14separator\b > \1\0\26\nClass\t \nEvent\t \rVariable\t \fPackage\t \14Namespace\t \rConstant\t \16Constructor\t \bKey\t \rFunction\t \tNull\t \vMethod\t \15EnumMember\t \tFile\t \vStruct\t \nField\t \rOperator\t \18TypeParameter\t \tEnum\t \fBoolean\t \vNumber\t \vString\t \rProperty\t \vModule\t \vObject\t \14Interface\t \nArray\t \nsetup\15nvim-navic\frequire\0" },
+    config = { "\27LJ\2\n�\3\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\nicons\1\0\5\14highlight\1\16safe_output\2\26depth_limit_indicator\a..\16depth_limit\3\0\14separator\b > \1\0\26\vString\t \14Interface\t \nArray\t \16Constructor\t \tEnum\t \vModule\t \fBoolean\t \fPackage\t \nField\t \vObject\t \rProperty\t \14Namespace\t \rFunction\t \18TypeParameter\t \vMethod\t \rOperator\t \nClass\t \nEvent\t \rVariable\t \vStruct\t \bKey\t \rConstant\t \15EnumMember\t \tNull\t \tFile\t \vNumber\t \nsetup\15nvim-navic\frequire\0" },
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/nvim-navic",
     url = "https://github.com/SmiteshP/nvim-navic"
-  },
-  ["nvim-tree.lua"] = {
-    config = { "\27LJ\2\n7\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\14nvim-tree\frequire\0" },
-    loaded = true,
-    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -274,6 +299,11 @@ _G.packer_plugins = {
     path = "/Users/radu/.local/share/nvim/site/pack/packer/opt/telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
+  ["telescope-undo.nvim"] = {
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/telescope-undo.nvim",
+    url = "https://github.com/debugloop/telescope-undo.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -296,6 +326,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/radu/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "/Users/radu/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
   },
   ["vim-fugitive"] = {
     loaded = true,
@@ -326,58 +361,58 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: lsp_signature.nvim
-time([[Config for lsp_signature.nvim]], true)
-try_loadstring("\27LJ\2\n�\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\a\16hint_prefix\5\20floating_window\2\15toggle_key\n<M-x>\16hint_enable\1\14doc_lines\3\15\14max_width\3�\1\15max_height\3\30\nsetup\18lsp_signature\frequire\0", "config", "lsp_signature.nvim")
-time([[Config for lsp_signature.nvim]], false)
--- Config for: indent-blankline.nvim
-time([[Config for indent-blankline.nvim]], true)
-try_loadstring("\27LJ\2\n[\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\25show_current_context\2\nsetup\21indent_blankline\frequire\0", "config", "indent-blankline.nvim")
-time([[Config for indent-blankline.nvim]], false)
--- Config for: smart-splits.nvim
-time([[Config for smart-splits.nvim]], true)
-try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17smart-splits\frequire\0", "config", "smart-splits.nvim")
-time([[Config for smart-splits.nvim]], false)
--- Config for: which-key.nvim
-time([[Config for which-key.nvim]], true)
-try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0", "config", "which-key.nvim")
-time([[Config for which-key.nvim]], false)
--- Config for: octo.nvim
-time([[Config for octo.nvim]], true)
-try_loadstring("\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tocto\frequire\0", "config", "octo.nvim")
-time([[Config for octo.nvim]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
--- Config for: kanagawa.nvim
-time([[Config for kanagawa.nvim]], true)
-try_loadstring("\27LJ\2\n�\2\0\0\4\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0024\3\0\0=\3\6\0025\3\a\0=\3\b\0025\3\t\0=\3\n\0024\3\0\0=\3\v\0025\3\f\0=\3\r\0024\3\0\0=\3\14\0024\3\0\0=\3\15\2B\0\2\1K\0\1\0\14overrides\vcolors\25variablebuiltinStyle\1\0\1\vitalic\2\14typeStyle\19statementStyle\1\0\1\tbold\2\17keywordStyle\1\0\1\vitalic\2\18functionStyle\17commentStyle\1\0\1\vitalic\2\1\0\b\14undercurl\2\19terminalColors\2\17globalStatus\1\16dimInactive\1\16transparent\1\21specialException\2\18specialReturn\2\ntheme\nlight\nsetup\rkanagawa\frequire\0", "config", "kanagawa.nvim")
-time([[Config for kanagawa.nvim]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
-time([[Config for nvim-tree.lua]], false)
--- Config for: inlay-hints.nvim
-time([[Config for inlay-hints.nvim]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\16inlay-hints\frequire\0", "config", "inlay-hints.nvim")
-time([[Config for inlay-hints.nvim]], false)
--- Config for: lsp-colors.nvim
-time([[Config for lsp-colors.nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15lsp-colors\frequire\0", "config", "lsp-colors.nvim")
-time([[Config for lsp-colors.nvim]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
 try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
+-- Config for: which-key.nvim
+time([[Config for which-key.nvim]], true)
+try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\0", "config", "which-key.nvim")
+time([[Config for which-key.nvim]], false)
+-- Config for: lsp_signature.nvim
+time([[Config for lsp_signature.nvim]], true)
+try_loadstring("\27LJ\2\n�\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\a\20floating_window\2\15toggle_key\n<M-x>\16hint_enable\1\14doc_lines\3\15\14max_width\3�\1\15max_height\3\30\16hint_prefix\5\nsetup\18lsp_signature\frequire\0", "config", "lsp_signature.nvim")
+time([[Config for lsp_signature.nvim]], false)
+-- Config for: lsp-colors.nvim
+time([[Config for lsp-colors.nvim]], true)
+try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15lsp-colors\frequire\0", "config", "lsp-colors.nvim")
+time([[Config for lsp-colors.nvim]], false)
+-- Config for: octo.nvim
+time([[Config for octo.nvim]], true)
+try_loadstring("\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tocto\frequire\0", "config", "octo.nvim")
+time([[Config for octo.nvim]], false)
+-- Config for: indent-blankline.nvim
+time([[Config for indent-blankline.nvim]], true)
+try_loadstring("\27LJ\2\n[\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\25show_current_context\2\nsetup\21indent_blankline\frequire\0", "config", "indent-blankline.nvim")
+time([[Config for indent-blankline.nvim]], false)
+-- Config for: kanagawa.nvim
+time([[Config for kanagawa.nvim]], true)
+try_loadstring("\27LJ\2\n�\3\0\0\4\0\16\0\0236\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0024\3\0\0=\3\6\0025\3\a\0=\3\b\0025\3\t\0=\3\n\0024\3\0\0=\3\v\0025\3\f\0=\3\r\0024\3\0\0=\3\14\0024\3\0\0=\3\15\2B\0\2\1K\0\1\0\14overrides\vcolors\25variablebuiltinStyle\1\0\1\vitalic\2\14typeStyle\19statementStyle\1\0\1\tbold\2\17keywordStyle\1\0\1\vitalic\2\18functionStyle\17commentStyle\1\0\1\vitalic\2\1\0\b\16dimInactive\1\16transparent\1\21specialException\2\18specialReturn\2\ntheme\fdefault\14undercurl\2\19terminalColors\2\17globalStatus\1\nsetup\rkanagawa\frequire\0", "config", "kanagawa.nvim")
+time([[Config for kanagawa.nvim]], false)
 -- Config for: nvim-navic
 time([[Config for nvim-navic]], true)
-try_loadstring("\27LJ\2\n�\3\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\nicons\1\0\5\16safe_output\2\26depth_limit_indicator\a..\14highlight\1\16depth_limit\3\0\14separator\b > \1\0\26\nClass\t \nEvent\t \rVariable\t \fPackage\t \14Namespace\t \rConstant\t \16Constructor\t \bKey\t \rFunction\t \tNull\t \vMethod\t \15EnumMember\t \tFile\t \vStruct\t \nField\t \rOperator\t \18TypeParameter\t \tEnum\t \fBoolean\t \vNumber\t \vString\t \rProperty\t \vModule\t \vObject\t \14Interface\t \nArray\t \nsetup\15nvim-navic\frequire\0", "config", "nvim-navic")
+try_loadstring("\27LJ\2\n�\3\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\nicons\1\0\5\14highlight\1\16safe_output\2\26depth_limit_indicator\a..\16depth_limit\3\0\14separator\b > \1\0\26\vString\t \14Interface\t \nArray\t \16Constructor\t \tEnum\t \vModule\t \fBoolean\t \fPackage\t \nField\t \vObject\t \rProperty\t \14Namespace\t \rFunction\t \18TypeParameter\t \vMethod\t \rOperator\t \nClass\t \nEvent\t \rVariable\t \vStruct\t \bKey\t \rConstant\t \15EnumMember\t \tNull\t \tFile\t \vNumber\t \nsetup\15nvim-navic\frequire\0", "config", "nvim-navic")
 time([[Config for nvim-navic]], false)
 -- Config for: todo-comments.nvim
 time([[Config for todo-comments.nvim]], true)
 try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\18todo-comments\frequire\0", "config", "todo-comments.nvim")
 time([[Config for todo-comments.nvim]], false)
+-- Config for: inlay-hints.nvim
+time([[Config for inlay-hints.nvim]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\16inlay-hints\frequire\0", "config", "inlay-hints.nvim")
+time([[Config for inlay-hints.nvim]], false)
+-- Config for: smart-splits.nvim
+time([[Config for smart-splits.nvim]], true)
+try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\17smart-splits\frequire\0", "config", "smart-splits.nvim")
+time([[Config for smart-splits.nvim]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
+-- Config for: neo-tree.nvim
+time([[Config for neo-tree.nvim]], true)
+try_loadstring("\27LJ\2\nv\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\15filesystem\1\0\0\1\0\1\26hijack_netrw_behavior\17open_default\nsetup\rneo-tree\frequire\0", "config", "neo-tree.nvim")
+time([[Config for neo-tree.nvim]], false)
 -- Conditional loads
 time([[Conditional loading of telescope-fzf-native.nvim]], true)
   require("packer.load")({"telescope-fzf-native.nvim"}, {}, _G.packer_plugins)

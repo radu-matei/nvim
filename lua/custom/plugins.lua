@@ -5,13 +5,24 @@ return function(use)
   })
   use { 'echasnovski/mini.nvim', branch = 'stable' }
   use({ 'nvim-telescope/telescope-file-browser.nvim' })
-  use({ 'nvim-tree/nvim-tree.lua', config = function()
-    require('nvim-tree').setup()
-  end,
+  use {
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v2.x",
     requires = {
-      'nvim-tree/nvim-web-devicons' -- optional, for file icons
-    }
-  })
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+    }, config = function()
+
+      require("neo-tree").setup({
+        filesystem = {
+          hijack_netrw_behavior = "open_default",
+          -- "open_current",
+          -- "disabled",
+        }
+      })
+    end
+  }
   use({ 'mrjones2014/smart-splits.nvim', config = function()
     require('smart-splits').setup({})
   end
@@ -145,4 +156,15 @@ return function(use)
   }
   use 'fedepujol/move.nvim'
   use 'mfussenegger/nvim-lint'
+  use 'debugloop/telescope-undo.nvim'
+  use 'mbbill/undotree'
+  use 'savq/melange-nvim'
+  use 'github/copilot.vim'
+  use {
+    'brymer-meneses/grammar-guard.nvim',
+    requires = {
+      'neovim/nvim-lspconfig',
+      'williamboman/nvim-lsp-installer'
+    }
+  }
 end

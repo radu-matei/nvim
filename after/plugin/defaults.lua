@@ -5,7 +5,7 @@ vim.opt.relativenumber = true
 vim.keymap.set('n', '<leader>sr', require('telescope.builtin').resume, { desc = '[S]earch [R]esume' })
 
 -- Toggle NvimTree
-vim.keymap.set('n', '<leader>e', require('nvim-tree').toggle, { desc = 'Toggle File [E]xplorer' })
+vim.keymap.set('n', '<leader>e', '<Cmd>NeoTreeShowToggle<CR>', { desc = 'Toggle File [E]xplorer' })
 
 -- Keymaps for moving between splits
 vim.keymap.set('n', '<C-h>', require('smart-splits').move_cursor_left, { desc = 'Move to left split' })
@@ -37,6 +37,8 @@ vim.keymap.set('n', '<leader>th', '<Cmd>ToggleTerm size=10 direction=horizontal<
 	{ desc = 'Open [T]erminal in [H]orizontal split' })
 
 vim.keymap.set('n', '<leader>q', '[[<C-w>q]] ', { desc = '[Q]uit current window' })
+
+vim.keymap.set('n', '<leader>u', '<Cmd>UndotreeToggle<CR>', { desc = "[U]ndo tree" })
 
 -- Map jj and jk to Escape
 vim.keymap.set('i', 'jk', '<Esc>')
@@ -75,3 +77,5 @@ require('lint').linters.clippy = {
 require('lint').linters_by_ft = {
 	rust = { 'clippy', }
 }
+
+require("grammar-guard").init()
